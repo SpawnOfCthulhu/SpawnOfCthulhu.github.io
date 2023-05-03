@@ -1,0 +1,38 @@
+
+.banner{
+  position: absolute;
+  width: 700px;
+  height: 300px;
+  margin: 18% 30%;
+  text-align: center;
+  background-color: rgba(9, 51, 58, 0.8);
+  border-radius: 50px;
+}
+.banner h1{
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 80px;
+}
+.banner h1 span{
+  color: aqua;
+}
+.banner p{
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 1.9;
+}
+.banner a{
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  font-size:30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 25px;
+}
+.banner a:hover{
+  background: #fff;
+  color: #000;
+}

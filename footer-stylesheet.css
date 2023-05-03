@@ -1,0 +1,123 @@
+.footer{
+  background: rgb(9, 51, 58);
+  color: #fff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  position: absolute; 
+  width: 100%;
+
+}
+.footer .footer-content{
+  height: 320px;
+  display: flex;
+}
+.footer .footer-content .footer-section{
+  flex: 1;
+  padding: 25px;
+  border-right: 5px solid rgb(8, 30, 34);
+  border-left: 5px solid rgb(8, 30, 34);
+  border-top: 10px solid rgb(8, 30, 34);
+  border-bottom: 10px solid rgb(8, 30, 34);
+}
+.footer .footer-content h1,
+.footer .footer-content h2{
+  color: white;
+}
+.footer .footer-content .about h1 span{
+  color: aqua;
+}
+.footer .footer-content .links ul a{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+.footer .footer-content .links ul a:hover{
+  -webkit-animation: INDENT 1s 1;
+  text-indent: 10px;
+}
+@-webkit-keyframes INDENT{  
+  0%   { text-indent: 0; }
+  25% { text-indent: 15px;}
+  50% { text-indent: 5px; }
+  100% { text-indent: 10px; }
+}
+
+.footer .footer-content .contact .socials{
+  text-align: center;
+}
+.footer .footer-content .contact .socials #facebook{
+  border: 1px solid white;
+  width: 45px;
+  height: 40px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 2em;
+  border-radius: 5px;
+  color: #fff;
+  opacity: 0.5;
+}
+.footer .footer-content .contact .socials #insta{
+  border: 1px solid white;
+  width: 45px;
+  height: 40px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 2em;
+  border-radius: 5px;
+  color: #fff;
+  opacity: 0.5;
+}
+.footer .footer-content .contact .socials #twitter{
+  border: 1px solid white;
+  width: 45px;
+  height: 40px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 2em;
+  border-radius: 5px;
+  color: #fff;
+  opacity: 0.5;
+}
+.footer .footer-content .contact .socials #facebook:hover{
+  border:1px solid #4267B2;
+  color: white;
+  background-color: #4267B2;
+  opacity: 1;
+  transition: 0.5s;
+}
+.footer .footer-content .contact .socials #twitter:hover{
+  border:1px solid #1DA1F2;
+  color: white;
+  background-color: #1DA1F2;
+  opacity: 1;
+  transition: 0.5s;
+}
+.footer .footer-content .contact .socials #insta:hover{
+  border:none;
+  color: white;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f
+  60%, #285aeb 90%);
+  opacity: 1;
+  transition: 0.8s;
+}
+
+
+.footer .footer-bottom{
+  background-color: rgb(54, 53, 53);
+  color: #fff;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 15px;
+}

@@ -1,0 +1,47 @@
+.btn{
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border-radius: .5rem;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+  background: green;
+  color: white
+}
+.btn:hover{
+  background: black;
+
+}
+
+.admin_container{
+  
+  max-width: 1200px;
+  padding: 2rem;
+  margin: auto;
+}
+.admin_product_form form{
+  max-width: 50rem;
+  margin: 10rem auto;
+  padding: 2rem;
+  border-radius: .5rem;
+  background: rgb(3, 107, 133);
+}
+
+.admin_product_form form h3{
+  
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 5rem;
+}
+admin_product_form form h3 .box{
+  height: 100%;
+  width: 100%;
+  border-radius: .5rem;
+  padding: 1.5rem;
+  font-size: 3rem;
+  text-transform: none;
+
+}

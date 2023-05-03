@@ -1,0 +1,15 @@
+
+div.login{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,2552,552,0.3);
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+  color: #fff;
+}
+form#login{
+  margin: 40px;
+}
+
+

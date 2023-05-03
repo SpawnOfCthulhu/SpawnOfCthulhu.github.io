@@ -1,0 +1,56 @@
+
+.pro-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px -20px;
+  justify-content: space-between;
+
+
+}
+
+.product {
+    
+	flex-basis: 25%;
+	padding: 10px;
+	box-sizing: border-box;
+  border: 1px solid black;
+  background-color: white;
+	border-radius: 10px;
+}
+
+.product img {
+	width: 100%;
+	height: 200px;
+	object-fit: contain;
+}
+.product h2 {
+	background-color: rgba(10, 122, 122, 0.705);
+ 	border-top: 1px solid;
+	margin-top: 20px;
+	
+}
+
+.product p {
+	border-top: 1px solid black;
+	margin-top: 0px;
+	background-color: rgba(10, 122, 122, 0.527);
+}
+
+.product button {
+	display: block;
+	margin-top: 10px;
+	padding: 10px 20px;
+	background-color: orange;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
